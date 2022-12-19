@@ -1,66 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Vary Code</title>
-    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="estilos.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JavaScript Vary Code</title>
+   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<style> 
- .menu-navegacion{
-    background: yellow;
+<div class="body">
+<style>
+     .body{
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-top: 0;
+     }
+     .menu-navegacion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: yellow;
+            justify-content: space-around;
+            height: 25px;
+         }
+      .head2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: blue;
+            height: 25px;
+            color: white;
+         }
 
- }
- .menu {
-    width:  35px;
-    height: 35px;
- }
- .logo{
-    display: flex;
-    width: 45px;
-    height: 45px;
-    flex-direction: column;
- }
- .cabecero {
-    display: flex;
-    background: blue;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 40px;
- }
- .cabecero2{
-    display: flex;
-    background: red;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 40px;
- }
-</style>   
-<section> 
+      .copy {
+            display: flex;
+            background: red;
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+         }
+      .subtitulo {
+            display: flex;
+            justify-content: center;
+         }
     
-    <header>
-       <img src="img/bx-menu.svg" alt="menu" class="menu">
-        <img src="img/logo.svg" alt="" class="logo">
-        <nav class="menu-navegacion">
-         <a href="index.html">Inicio</a>
-         <a href="#lenguajes">Lenguajes</a>
-         <a href="#cursos">cursos</a>
-         <a href="#contactos">Contactos</a>
-         <a href="#egg head">EGG HEAD</a>
-        </nav>
-        <div>
-        
-        <h1 class="cabecero"><b>Vary Code</b></h1>
-        <h2 class="cabecero2">Programa con Nosotros!!</h2>
-        <h1 class="Header">Capacitacion en JavaScript</h1>
-        <p class="Parrafo1">Lorem ipsum  paria soluta seqit quia aut. </p>
-        </div>
-    </header>
-</section>
+</style>
+   <section>
+   <main>
+   <header class="header">
+      <!--<img src="img/logo.svg" alt="" class="logo">-->
+      <nav class="menu-navegacion">
+       <a href="index.html"><h6>Pagina Principal</h6></a>
+       <a href="#lenguajes"><h6>Lenguajes</h6></a>
+       <a href="#cursos"><h6>Cursos</h6></a>
+       <a href="#contacto"><h6>Contacto</h6></a>
+       <a href="#egg head"><h6>Egg head</h6></a>
+      </nav>
+      <div class="contenedor-head">
+         <div>
+            <h3 class="head2">Vary Code</h3>
+            <h3 class="copy">Programa con Nosotros!!</h3>
+         </div>
+      </div>
+      <div>
+         <div style="color :rgb(0, 0, 0)">
+            <h3 class="subtitulo">Te brindamos nuestra mayor ayuda..</h3>
+         </div>
+      </div>
+   </header>
+   </main>
+   </section>
+</div>
 </body>
 </html>
